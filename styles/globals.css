@@ -4,3 +4,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 4rem;
+  background-color: blueviolet;
+}
+
+.layout__title {
+  text-align: center;
+  margin-block: 2rem;
+  font-size: 4rem;
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 import navStyles from '../styles/Nav.module.css';
 
 const Nav = () => {
@@ -6,10 +7,14 @@ const Nav = () => {
     <nav className={navStyles.nav}>
       <ul className={navStyles.list}>
         <li className={navStyles.item}>
-          <a href="#" className={navStyles.link}>Posts</a>
+          <Link href="/posts">
+            <a className={navStyles.link}>Posts</a>
+          </Link>
         </li>
         <li className={navStyles.item}>
-          <a href="#" className={navStyles.link}>Todos</a>
+          <Link href="/todos">
+            <a className={navStyles.link}>Todos</a>
+          </Link>
         </li>
       </ul>
     </nav>

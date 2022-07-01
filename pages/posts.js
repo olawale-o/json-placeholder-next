@@ -13,7 +13,7 @@ const Posts = ({ posts }) => {
 
 Posts.getLayout = function getLayout(page) {
   return(
-    <PostLayout>{page}</PostLayout>
+    <PostLayout title="Posts">{page}</PostLayout>
   );
 }
 
